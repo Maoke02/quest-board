@@ -1,0 +1,31 @@
+{
+  "id": "quest-board",
+  "title": "Quest Board",
+  "description": "A GM-curated quest board. Players accept postings, track progress in a party or personal quest journal, and the party hands out item rewards.",
+  "version": "0.8.0",
+  "url": "https://github.com/Maoke02/Quest-Board",
+  "manifest": "https://raw.githubusercontent.com/Maoke02/Quest-Board/main/module.json",
+  "download": "https://github.com/Maoke02/Quest-Board/raw/main/quest-board.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/quest-board.css"
+  ],
+  "socket": true,
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  }
+}
